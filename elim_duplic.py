@@ -3,7 +3,7 @@ import re
 
 array = []
 
-with open("frases1.txt") as fichero:
+with open("frases.txt") as fichero:
 	lineas = fichero.read().split('\n')
 	for linea in lineas:
 	# Escapamos las lineas en blanco
